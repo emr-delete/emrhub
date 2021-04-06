@@ -1,6 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
-
+-- made by emr#1487
 -- Instances:
 
 local StarterGui = Instance.new("ScreenGui")
@@ -11,27 +11,10 @@ local LoginButton = Instance.new("TextButton")
 local box = Instance.new("ImageLabel")
 local Password = Instance.new("TextBox")
 local CoolThing = Instance.new("TextLabel")
+local discord = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
 local main = Instance.new("TextButton")
 local Frame10 = Instance.new("Frame")
-local Frame2 = Instance.new("Frame")
-local EastryEgg = Instance.new("TextButton")
-local CosmicEgg = Instance.new("TextButton")
-local CrackedEgg = Instance.new("TextButton")
-local Close = Instance.new("TextButton")
-local TextLabel = Instance.new("TextLabel")
-local TextLabel_2 = Instance.new("TextLabel")
-local Frame3 = Instance.new("Frame")
-local Close_2 = Instance.new("TextButton")
-local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
-local Jailbreak = Instance.new("TextButton")
-local PrisonLife = Instance.new("TextButton")
-local Arsenal = Instance.new("TextButton")
-local Murder = Instance.new("TextButton")
-local TowerOffHell = Instance.new("TextButton")
-local BeeSwarmSim = Instance.new("TextButton")
-local Bloxburg = Instance.new("TextButton")
-local SaberSim = Instance.new("TextButton")
 local AntiAfk = Instance.new("TextButton")
 local BgsGui = Instance.new("TextButton")
 local CloseButton = Instance.new("TextButton")
@@ -43,6 +26,27 @@ local kenar_3 = Instance.new("ImageLabel")
 local kenar_4 = Instance.new("ImageLabel")
 local Panel_2 = Instance.new("TextLabel")
 local Panel_3 = Instance.new("TextLabel")
+local Frame2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local EastryEgg = Instance.new("TextButton")
+local CrackedEgg = Instance.new("TextButton")
+local CosmicEgg = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Frame3 = Instance.new("Frame")
+local Arsenal = Instance.new("TextButton")
+local BeeSwarmSim = Instance.new("TextButton")
+local Bloxburg = Instance.new("TextButton")
+local Close_2 = Instance.new("TextButton")
+local Jailbreak = Instance.new("TextButton")
+local Murder = Instance.new("TextButton")
+local PrisonLife = Instance.new("TextButton")
+local SaberSim = Instance.new("TextButton")
+local TowerOffHell = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local panel123 = Instance.new("Frame")
+local Panel_4 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -125,6 +129,20 @@ CoolThing.Text = ""
 CoolThing.TextColor3 = Color3.fromRGB(0, 0, 0)
 CoolThing.TextSize = 14.000
 
+discord.Name = "discord"
+discord.Parent = Login
+discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discord.Position = UDim2.new(-1.3860606, 0, 0.255060315, 0)
+discord.Size = UDim2.new(0, 272, 0, 62)
+
+TextLabel.Parent = discord
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 272, 0, 62)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "join discord for the key [ZfKe7rWC]"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
 main.Name = "main"
 main.Parent = StarterGui
 main.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
@@ -141,320 +159,10 @@ main.TextWrapped = true
 
 Frame10.Name = "Frame10"
 Frame10.Parent = StarterGui
-Frame10.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame10.Position = UDim2.new(0.330303073, 0, 0.276519656, 0)
-Frame10.Size = UDim2.new(0, 556, 0, 374)
+Frame10.Size = UDim2.new(0, 556, 0, 371)
 Frame10.Visible = false
-
-Frame2.Name = "Frame2"
-Frame2.Parent = Frame10
-Frame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame2.Position = UDim2.new(1.08754492, 0, 0.635370195, 0)
-Frame2.Size = UDim2.new(0, 386, 0, 348)
-Frame2.Visible = false
-
-EastryEgg.Name = "Eastry Egg"
-EastryEgg.Parent = Frame2
-EastryEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-EastryEgg.Position = UDim2.new(0.570850968, 0, 0.518579185, 0)
-EastryEgg.Size = UDim2.new(0, 139, 0, 99)
-EastryEgg.Font = Enum.Font.SourceSans
-EastryEgg.Text = "Eastry Egg"
-EastryEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
-EastryEgg.TextScaled = true
-EastryEgg.TextSize = 14.000
-EastryEgg.TextWrapped = true
-EastryEgg.MouseButton1Down:connect(function()
-	_G.OpAutoFarm = true
-	while wait() and _G.OpAutoFarm do
-		local args = {
-			[1] = "PurchaseEgg",
-			[2] = "Eastery Egg",
-			[3] = "Multi",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-
-		local args = {
-			[1] = "BlowBubble",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-	end
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Fast Open Egg X2";
-		Text = "Made By Esc Comminty emr#1487";
-		Duration = 25;
-	})
-end)
-
-CosmicEgg.Name = "Cosmic Egg"
-CosmicEgg.Parent = Frame2
-CosmicEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-CosmicEgg.Position = UDim2.new(0.0300124176, 0, 0.520230949, 0)
-CosmicEgg.Size = UDim2.new(0, 139, 0, 99)
-CosmicEgg.Font = Enum.Font.SourceSans
-CosmicEgg.Text = "Cosmic Egg"
-CosmicEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
-CosmicEgg.TextScaled = true
-CosmicEgg.TextSize = 14.000
-CosmicEgg.TextWrapped = true
-CosmicEgg.MouseButton1Down:connect(function()
-	_G.OpAutoFarm = true
-	while wait() and _G.OpAutoFarm do
-		local args = {
-			[1] = "PurchaseEgg",
-			[2] = "Cosmic Egg",
-			[3] = "Multi",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-
-		local args = {
-			[1] = "BlowBubble",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-	end
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Fast Open Egg X2";
-		Text = "Made By Esc Comminty emr#1487";
-		Duration = 25;
-	})	
-end)
-
-CrackedEgg.Name = "Cracked Egg"
-CrackedEgg.Parent = Frame2
-CrackedEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-CrackedEgg.Position = UDim2.new(0.293385059, 0, 0.202659905, 0)
-CrackedEgg.Size = UDim2.new(0, 139, 0, 99)
-CrackedEgg.Font = Enum.Font.SourceSans
-CrackedEgg.Text = "Cracked Egg"
-CrackedEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
-CrackedEgg.TextScaled = true
-CrackedEgg.TextSize = 14.000
-CrackedEgg.TextWrapped = true
-CrackedEgg.MouseButton1Down:connect(function()
-	_G.OpAutoFarm = true
-	while wait() and _G.OpAutoFarm do
-		local args = {
-			[1] = "PurchaseEgg",
-			[2] = "Cracked Egg",
-			[3] = "Multi",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-
-		local args = {
-			[1] = "BlowBubble",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-	end
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Fast Open Egg X2";
-		Text = "Made By Esc Comminty emr#1487";
-		Duration = 25;
-	})	
-end)
-
-Close.Name = "Close"
-Close.Parent = Frame2
-Close.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
-Close.Position = UDim2.new(0.851933241, 0, 0.0224257633, 0)
-Close.Size = UDim2.new(0, 51, 0, 44)
-Close.ZIndex = 2
-Close.Font = Enum.Font.SourceSansBold
-Close.Text = "X"
-Close.TextColor3 = Color3.fromRGB(170, 0, 0)
-Close.TextScaled = true
-Close.TextSize = 14.000
-Close.TextWrapped = true
-
-TextLabel.Parent = Frame2
-TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.Position = UDim2.new(0.0310880821, 0, 0.0201149434, 0)
-TextLabel.Size = UDim2.new(0, 309, 0, 52)
-TextLabel.Font = Enum.Font.SciFi
-TextLabel.Text = "BGS NEW UPDATE EASTER 2021"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-TextLabel_2.Parent = Frame2
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.Position = UDim2.new(0.0440414511, 0, 0.864942491, 0)
-TextLabel_2.Size = UDim2.new(0, 351, 0, 39)
-TextLabel_2.Font = Enum.Font.SciFi
-TextLabel_2.Text = "made by emr#1487"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-Frame3.Name = "Frame3"
-Frame3.Parent = Frame10
-Frame3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame3.Position = UDim2.new(1.03358817, 0, -0.452964842, 0)
-Frame3.Size = UDim2.new(0, 513, 0, 348)
-Frame3.Visible = false
-
-Close_2.Name = "Close"
-Close_2.Parent = Frame3
-Close_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
-Close_2.Position = UDim2.new(0.851933241, 0, 0.0224257633, 0)
-Close_2.Size = UDim2.new(0, 51, 0, 44)
-Close_2.ZIndex = 2
-Close_2.Font = Enum.Font.SourceSansBold
-Close_2.Text = "X"
-Close_2.TextColor3 = Color3.fromRGB(170, 0, 0)
-Close_2.TextScaled = true
-Close_2.TextSize = 14.000
-Close_2.TextWrapped = true
-
-TextLabel_3.Parent = Frame3
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.Position = UDim2.new(0.031088192, 0, 0.0201149434, 0)
-TextLabel_3.Size = UDim2.new(0, 390, 0, 52)
-TextLabel_3.Font = Enum.Font.SciFi
-TextLabel_3.Text = "Games"
-TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
-
-TextLabel_4.Parent = Frame3
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.Position = UDim2.new(0.0440414473, 0, 0.864942551, 0)
-TextLabel_4.Size = UDim2.new(0, 478, 0, 39)
-TextLabel_4.Font = Enum.Font.SciFi
-TextLabel_4.Text = "made by emr#1487"
-TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
-
-Jailbreak.Name = "Jailbreak"
-Jailbreak.Parent = Frame3
-Jailbreak.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-Jailbreak.Position = UDim2.new(0.043872498, 0, 0.245763317, 0)
-Jailbreak.Size = UDim2.new(0, 109, 0, 79)
-Jailbreak.Font = Enum.Font.SourceSans
-Jailbreak.Text = "Jailberak"
-Jailbreak.TextColor3 = Color3.fromRGB(85, 255, 127)
-Jailbreak.TextScaled = true
-Jailbreak.TextSize = 14.000
-Jailbreak.TextWrapped = true
-Jailbreak.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(("https://pastebin.com/rriYhpPQ"),true))()
-end)
-
-
-PrisonLife.Name = "Prison Life"
-PrisonLife.Parent = Frame3
-PrisonLife.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-PrisonLife.Position = UDim2.new(0.277790636, 0, 0.245763317, 0)
-PrisonLife.Size = UDim2.new(0, 109, 0, 79)
-PrisonLife.Font = Enum.Font.SourceSans
-PrisonLife.Text = "Prison Life"
-PrisonLife.TextColor3 = Color3.fromRGB(85, 255, 127)
-PrisonLife.TextScaled = true
-PrisonLife.TextSize = 14.000
-PrisonLife.TextWrapped = true
-PrisonLife.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(("https://pastebin.com/azhcDd6d"),true))()
-end)
-
-Arsenal.Name = "Arsenal"
-Arsenal.Parent = Frame3
-Arsenal.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-Arsenal.Position = UDim2.new(0.527303338, 0, 0.245763317, 0)
-Arsenal.Size = UDim2.new(0, 109, 0, 79)
-Arsenal.Font = Enum.Font.SourceSans
-Arsenal.Text = "Arsenal"
-Arsenal.TextColor3 = Color3.fromRGB(85, 255, 127)
-Arsenal.TextScaled = true
-Arsenal.TextSize = 14.000
-Arsenal.TextWrapped = true
-Arsenal.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(("https://pastebin.com/ctpWehKN"),true))()
-end)
-
-Murder.Name = "Murder"
-Murder.Parent = Frame3
-Murder.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-Murder.Position = UDim2.new(0.763170779, 0, 0.245763317, 0)
-Murder.Size = UDim2.new(0, 109, 0, 79)
-Murder.Font = Enum.Font.SourceSans
-Murder.Text = "Mureder Mystry"
-Murder.TextColor3 = Color3.fromRGB(85, 255, 127)
-Murder.TextScaled = true
-Murder.TextSize = 14.000
-Murder.TextWrapped = true
-Murder.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(("https://pastebin.com/XXuX12Nt"),true))()
-end)
-
-TowerOffHell.Name = "TowerOffHell"
-TowerOffHell.Parent = Frame3
-TowerOffHell.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-TowerOffHell.Position = UDim2.new(0.0516697764, 0, 0.564728856, 0)
-TowerOffHell.Size = UDim2.new(0, 109, 0, 79)
-TowerOffHell.Font = Enum.Font.SourceSans
-TowerOffHell.Text = "Tower Off Hell"
-TowerOffHell.TextColor3 = Color3.fromRGB(85, 255, 127)
-TowerOffHell.TextScaled = true
-TowerOffHell.TextSize = 14.000
-TowerOffHell.TextWrapped = true
-TowerOffHell.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"))()
-end)
-
-BeeSwarmSim.Name = "Bee Swarm Sim"
-BeeSwarmSim.Parent = Frame3
-BeeSwarmSim.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-BeeSwarmSim.Position = UDim2.new(0.293385178, 0, 0.564728856, 0)
-BeeSwarmSim.Size = UDim2.new(0, 109, 0, 79)
-BeeSwarmSim.Font = Enum.Font.SourceSans
-BeeSwarmSim.Text = "Bee Swarm Sim"
-BeeSwarmSim.TextColor3 = Color3.fromRGB(85, 255, 127)
-BeeSwarmSim.TextScaled = true
-BeeSwarmSim.TextSize = 14.000
-BeeSwarmSim.TextWrapped = true
-BeeSwarmSim.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/iC4VXeXA"))()
-end)
-
-Bloxburg.Name = "Bloxburg"
-Bloxburg.Parent = Frame3
-Bloxburg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-Bloxburg.Position = UDim2.new(0.527303338, 0, 0.564728856, 0)
-Bloxburg.Size = UDim2.new(0, 109, 0, 79)
-Bloxburg.Font = Enum.Font.SourceSans
-Bloxburg.Text = "Bloxburg"
-Bloxburg.TextColor3 = Color3.fromRGB(85, 255, 127)
-Bloxburg.TextScaled = true
-Bloxburg.TextSize = 14.000
-Bloxburg.TextWrapped = true
-Bloxburg.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/5ZyXEkBF"))()
-end)
-
-SaberSim.Name = "Saber Sim"
-SaberSim.Parent = Frame3
-SaberSim.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-SaberSim.Position = UDim2.new(0.763170779, 0, 0.564728856, 0)
-SaberSim.Size = UDim2.new(0, 109, 0, 79)
-SaberSim.Font = Enum.Font.SourceSans
-SaberSim.Text = "Saber sim"
-SaberSim.TextColor3 = Color3.fromRGB(85, 255, 127)
-SaberSim.TextScaled = true
-SaberSim.TextSize = 14.000
-SaberSim.TextWrapped = true
-SaberSim.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://gist.githubusercontent.com/MincraftGamerYTPRO/4856a0e840f31f16767df1537465b14f/raw/c5494726d554649ac3e0fc6f5870be393a344f66/gistfile1.txt"))()
-end)
 
 AntiAfk.Name = "AntiAfk"
 AntiAfk.Parent = Frame10
@@ -463,7 +171,7 @@ AntiAfk.Position = UDim2.new(0.0404758602, 0, 0.219633222, 0)
 AntiAfk.Size = UDim2.new(0, 145, 0, 128)
 AntiAfk.Font = Enum.Font.SourceSans
 AntiAfk.Text = "Anti Afk"
-AntiAfk.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAfk.TextColor3 = Color3.fromRGB(85, 255, 127)
 AntiAfk.TextScaled = true
 AntiAfk.TextSize = 14.000
 AntiAfk.TextWrapped = true
@@ -496,7 +204,7 @@ BgsGui.Position = UDim2.new(0.375963956, 0, 0.219994754, 0)
 BgsGui.Size = UDim2.new(0, 145, 0, 128)
 BgsGui.Font = Enum.Font.SourceSansBold
 BgsGui.Text = "Bubble Gum Simulator"
-BgsGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+BgsGui.TextColor3 = Color3.fromRGB(85, 255, 127)
 BgsGui.TextScaled = true
 BgsGui.TextSize = 14.000
 BgsGui.TextWrapped = true
@@ -511,8 +219,8 @@ CloseButton.BorderSizePixel = 0
 CloseButton.Position = UDim2.new(0.911192298, 0, 0.0199346915, 0)
 CloseButton.Size = UDim2.new(0, 37, 0, 36)
 CloseButton.Font = Enum.Font.SourceSans
-CloseButton.Text = "Close"
-CloseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(170, 0, 0)
 CloseButton.TextScaled = true
 CloseButton.TextSize = 14.000
 CloseButton.TextWrapped = true
@@ -524,7 +232,7 @@ FastEgg.Position = UDim2.new(0.697983563, 0, 0.219994754, 0)
 FastEgg.Size = UDim2.new(0, 145, 0, 128)
 FastEgg.Font = Enum.Font.SourceSans
 FastEgg.Text = "Fast Egg"
-FastEgg.TextColor3 = Color3.fromRGB(0, 0, 0)
+FastEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
 FastEgg.TextScaled = true
 FastEgg.TextSize = 14.000
 FastEgg.TextWrapped = true
@@ -536,7 +244,7 @@ MoreGames.Position = UDim2.new(0.0685834289, 0, 0.614639938, 0)
 MoreGames.Size = UDim2.new(0, 485, 0, 76)
 MoreGames.Font = Enum.Font.SourceSans
 MoreGames.Text = "More Games"
-MoreGames.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoreGames.TextColor3 = Color3.fromRGB(85, 255, 127)
 MoreGames.TextScaled = true
 MoreGames.TextSize = 14.000
 MoreGames.TextWrapped = true
@@ -546,8 +254,8 @@ kenar.Parent = Frame10
 kenar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 kenar.BackgroundTransparency = 1.000
 kenar.BorderColor3 = Color3.fromRGB(27, 42, 53)
-kenar.Position = UDim2.new(0.987231731, 0, -0.0214715991, 0)
-kenar.Size = UDim2.new(0, 13, 0, 382)
+kenar.Position = UDim2.new(0.987231672, 0, -0.0214715432, 0)
+kenar.Size = UDim2.new(0, 13, 0, 378)
 kenar.Image = "rbxassetid://3570695787"
 kenar.ImageColor3 = Color3.fromRGB(40, 40, 40)
 kenar.ScaleType = Enum.ScaleType.Slice
@@ -559,8 +267,8 @@ kenar_2.Parent = Frame10
 kenar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 kenar_2.BackgroundTransparency = 1.000
 kenar_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-kenar_2.Position = UDim2.new(-0.0173018239, 0, -0.0214715991, 0)
-kenar_2.Size = UDim2.new(0, 13, 0, 382)
+kenar_2.Position = UDim2.new(-0.0173018202, 0, -0.0214715432, 0)
+kenar_2.Size = UDim2.new(0, 13, 0, 378)
 kenar_2.Image = "rbxassetid://3570695787"
 kenar_2.ImageColor3 = Color3.fromRGB(40, 40, 40)
 kenar_2.ScaleType = Enum.ScaleType.Slice
@@ -572,8 +280,8 @@ kenar_3.Parent = Frame10
 kenar_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 kenar_3.BackgroundTransparency = 1.000
 kenar_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-kenar_3.Position = UDim2.new(-0.017301878, 0, 0.966399312, 0)
-kenar_3.Size = UDim2.new(0, 573, 0, 11)
+kenar_3.Position = UDim2.new(-0.0173019301, 0, 0.969073117, 0)
+kenar_3.Size = UDim2.new(0, 571, 0, 11)
 kenar_3.Image = "rbxassetid://3570695787"
 kenar_3.ImageColor3 = Color3.fromRGB(40, 40, 40)
 kenar_3.ScaleType = Enum.ScaleType.Slice
@@ -621,9 +329,341 @@ Panel_3.TextScaled = true
 Panel_3.TextSize = 18.000
 Panel_3.TextWrapped = true
 
+Frame2.Name = "Frame2"
+Frame2.Parent = StarterGui
+Frame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.Position = UDim2.new(0.694545448, 0, 0.507747293, 0)
+Frame2.Size = UDim2.new(0, 395, 0, 387)
+Frame2.Visible = false
+
+TextLabel_2.Parent = Frame2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0.0310880821, 0, 0.0201149434, 0)
+TextLabel_2.Size = UDim2.new(0, 309, 0, 52)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "BGS NEW UPDATE EASTER 2021"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.0440414511, 0, 0.864942491, 0)
+TextLabel_3.Size = UDim2.new(0, 351, 0, 39)
+TextLabel_3.Font = Enum.Font.SciFi
+TextLabel_3.Text = "made by emr#1487"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+EastryEgg.Name = "Eastry Egg"
+EastryEgg.Parent = Frame2
+EastryEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+EastryEgg.Position = UDim2.new(0.570850968, 0, 0.518579185, 0)
+EastryEgg.Size = UDim2.new(0, 139, 0, 99)
+EastryEgg.Font = Enum.Font.SourceSans
+EastryEgg.Text = "Eastry Egg"
+EastryEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
+EastryEgg.TextScaled = true
+EastryEgg.TextSize = 14.000
+EastryEgg.TextWrapped = true
+EastryEgg.MouseButton1Down:connect(function()
+	_G.OpAutoFarm = true
+	while wait() and _G.OpAutoFarm do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Eastery Egg",
+			[3] = "Multi",
+		}
+
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+
+		local args = {
+			[1] = "BlowBubble",
+		}
+
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	end
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Fast Open Egg X2";
+		Text = "Made By Esc Comminty emr#1487";
+		Duration = 25;
+	})
+end)
+
+CrackedEgg.Name = "Cracked Egg"
+CrackedEgg.Parent = Frame2
+CrackedEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+CrackedEgg.Position = UDim2.new(0.293385059, 0, 0.202659905, 0)
+CrackedEgg.Size = UDim2.new(0, 139, 0, 99)
+CrackedEgg.Font = Enum.Font.SourceSans
+CrackedEgg.Text = "Cracked Egg"
+CrackedEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
+CrackedEgg.TextScaled = true
+CrackedEgg.TextSize = 14.000
+CrackedEgg.TextWrapped = true
+CrackedEgg.MouseButton1Down:connect(function()
+	_G.OpAutoFarm = true
+	while wait() and _G.OpAutoFarm do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Cracked Egg",
+			[3] = "Multi",
+		}
+
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+
+		local args = {
+			[1] = "BlowBubble",
+		}
+
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	end
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Fast Open Egg X2";
+		Text = "Made By Esc Comminty emr#1487";
+		Duration = 25;
+	})	
+end)
+
+
+CosmicEgg.Name = "Cosmic Egg"
+CosmicEgg.Parent = Frame2
+CosmicEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+CosmicEgg.Position = UDim2.new(0.0300124176, 0, 0.520230949, 0)
+CosmicEgg.Size = UDim2.new(0, 139, 0, 99)
+CosmicEgg.Font = Enum.Font.SourceSans
+CosmicEgg.Text = "Cosmic Egg"
+CosmicEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
+CosmicEgg.TextScaled = true
+CosmicEgg.TextSize = 14.000
+CosmicEgg.TextWrapped = true
+CosmicEgg.MouseButton1Down:connect(function()
+	_G.OpAutoFarm = true
+	while wait() and _G.OpAutoFarm do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Cosmic Egg",
+			[3] = "Multi",
+		}
+
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+
+		local args = {
+			[1] = "BlowBubble",
+		}
+
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	end
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Fast Open Egg X2";
+		Text = "Made By Esc Comminty emr#1487";
+		Duration = 25;
+	})	
+end)
+
+
+Close.Name = "Close"
+Close.Parent = Frame2
+Close.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Close.Position = UDim2.new(0.851933241, 0, 0.0224257633, 0)
+Close.Size = UDim2.new(0, 51, 0, 44)
+Close.ZIndex = 2
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(170, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Frame3.Name = "Frame3"
+Frame3.Parent = StarterGui
+Frame3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame3.Position = UDim2.new(0.678181827, 0, 0.027413588, 0)
+Frame3.Size = UDim2.new(0, 513, 0, 348)
+Frame3.Visible = false
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Frame3
+Arsenal.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Arsenal.Position = UDim2.new(0.527303338, 0, 0.245763317, 0)
+Arsenal.Size = UDim2.new(0, 109, 0, 79)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(85, 255, 127)
+Arsenal.TextScaled = true
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/kvpwyQRT')))()
+end)
+
+BeeSwarmSim.Name = "Bee Swarm Sim"
+BeeSwarmSim.Parent = Frame3
+BeeSwarmSim.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+BeeSwarmSim.Position = UDim2.new(0.293385178, 0, 0.564728856, 0)
+BeeSwarmSim.Size = UDim2.new(0, 109, 0, 79)
+BeeSwarmSim.Font = Enum.Font.SourceSans
+BeeSwarmSim.Text = "Bee Swarm Sim"
+BeeSwarmSim.TextColor3 = Color3.fromRGB(85, 255, 127)
+BeeSwarmSim.TextScaled = true
+BeeSwarmSim.TextSize = 14.000
+BeeSwarmSim.TextWrapped = true
+BeeSwarmSim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/iC4VXeXA"))()
+end)
+
+Bloxburg.Name = "Bloxburg"
+Bloxburg.Parent = Frame3
+Bloxburg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Bloxburg.Position = UDim2.new(0.527303338, 0, 0.564728856, 0)
+Bloxburg.Size = UDim2.new(0, 109, 0, 79)
+Bloxburg.Font = Enum.Font.SourceSans
+Bloxburg.Text = "Bloxburg"
+Bloxburg.TextColor3 = Color3.fromRGB(85, 255, 127)
+Bloxburg.TextScaled = true
+Bloxburg.TextSize = 14.000
+Bloxburg.TextWrapped = true
+Bloxburg.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/5ZyXEkBF"))()
+end)
+
+Close_2.Name = "Close"
+Close_2.Parent = Frame3
+Close_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Close_2.Position = UDim2.new(0.851933241, 0, 0.0224257633, 0)
+Close_2.Size = UDim2.new(0, 51, 0, 44)
+Close_2.ZIndex = 2
+Close_2.Font = Enum.Font.SourceSansBold
+Close_2.Text = "X"
+Close_2.TextColor3 = Color3.fromRGB(170, 0, 0)
+Close_2.TextScaled = true
+Close_2.TextSize = 14.000
+Close_2.TextWrapped = true
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = Frame3
+Jailbreak.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Jailbreak.Position = UDim2.new(0.043872498, 0, 0.245763317, 0)
+Jailbreak.Size = UDim2.new(0, 109, 0, 79)
+Jailbreak.Font = Enum.Font.SourceSans
+Jailbreak.Text = "Jailberak"
+Jailbreak.TextColor3 = Color3.fromRGB(85, 255, 127)
+Jailbreak.TextScaled = true
+Jailbreak.TextSize = 14.000
+Jailbreak.TextWrapped = true
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/rriYhpPQ"),true))()
+end)
+
+Murder.Name = "Murder"
+Murder.Parent = Frame3
+Murder.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Murder.Position = UDim2.new(0.763170779, 0, 0.245763317, 0)
+Murder.Size = UDim2.new(0, 109, 0, 79)
+Murder.Font = Enum.Font.SourceSans
+Murder.Text = "Mureder Mystry"
+Murder.TextColor3 = Color3.fromRGB(85, 255, 127)
+Murder.TextScaled = true
+Murder.TextSize = 14.000
+Murder.TextWrapped = true
+Murder.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/XXuX12Nt"),true))()
+end)
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = Frame3
+PrisonLife.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PrisonLife.Position = UDim2.new(0.277790636, 0, 0.245763317, 0)
+PrisonLife.Size = UDim2.new(0, 109, 0, 79)
+PrisonLife.Font = Enum.Font.SourceSans
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(85, 255, 127)
+PrisonLife.TextScaled = true
+PrisonLife.TextSize = 14.000
+PrisonLife.TextWrapped = true
+PrisonLife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/azhcDd6d"),true))()
+end)
+
+SaberSim.Name = "Saber Sim"
+SaberSim.Parent = Frame3
+SaberSim.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SaberSim.Position = UDim2.new(0.763170779, 0, 0.564728856, 0)
+SaberSim.Size = UDim2.new(0, 109, 0, 79)
+SaberSim.Font = Enum.Font.SourceSans
+SaberSim.Text = "Saber sim"
+SaberSim.TextColor3 = Color3.fromRGB(85, 255, 127)
+SaberSim.TextScaled = true
+SaberSim.TextSize = 14.000
+SaberSim.TextWrapped = true
+SaberSim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/MincraftGamerYTPRO/4856a0e840f31f16767df1537465b14f/raw/c5494726d554649ac3e0fc6f5870be393a344f66/gistfile1.txt"))()
+end)
+
+TowerOffHell.Name = "TowerOffHell"
+TowerOffHell.Parent = Frame3
+TowerOffHell.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TowerOffHell.Position = UDim2.new(0.0516697764, 0, 0.564728856, 0)
+TowerOffHell.Size = UDim2.new(0, 109, 0, 79)
+TowerOffHell.Font = Enum.Font.SourceSans
+TowerOffHell.Text = "Tower Off Hell"
+TowerOffHell.TextColor3 = Color3.fromRGB(85, 255, 127)
+TowerOffHell.TextScaled = true
+TowerOffHell.TextSize = 14.000
+TowerOffHell.TextWrapped = true
+TowerOffHell.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"))()
+end)
+
+TextLabel_4.Parent = Frame3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(0.0440414473, 0, 0.864942551, 0)
+TextLabel_4.Size = UDim2.new(0, 478, 0, 39)
+TextLabel_4.Font = Enum.Font.SciFi
+TextLabel_4.Text = "made by emr#1487"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Frame3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.Position = UDim2.new(0.031088192, 0, 0.0201149434, 0)
+TextLabel_5.Size = UDim2.new(0, 390, 0, 52)
+TextLabel_5.Font = Enum.Font.SciFi
+TextLabel_5.Text = "Games"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+panel123.Name = "panel123"
+panel123.Parent = StarterGui
+panel123.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+panel123.BackgroundTransparency = 1.000
+panel123.Position = UDim2.new(-0.0563636348, 0, 0.0202622171, 0)
+panel123.Size = UDim2.new(0, 100, 0, 100)
+
+Panel_4.Name = "Panel"
+Panel_4.Parent = panel123
+Panel_4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Panel_4.BackgroundTransparency = 1.000
+Panel_4.BorderSizePixel = 0
+Panel_4.Position = UDim2.new(6.84918547, 0, -0.159198165, 0)
+Panel_4.Size = UDim2.new(0, 543, 0, 28)
+Panel_4.Font = Enum.Font.SourceSans
+Panel_4.Text = "Made by esc community emr#1487"
+Panel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Panel_4.TextScaled = true
+Panel_4.TextSize = 18.000
+Panel_4.TextWrapped = true
+
 -- Scripts:
 
-local function XZZKGYC_fake_script() -- LoginButton.LocalScript 
+local function KPHCC_fake_script() -- LoginButton.LocalScript 
 	local script = Instance.new('LocalScript', LoginButton)
 
 	local password = script.Parent.Parent.Parent.box.Password
@@ -643,76 +683,76 @@ local function XZZKGYC_fake_script() -- LoginButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XZZKGYC_fake_script)()
-local function EQFSXN_fake_script() -- main.LocalScript 
+coroutine.wrap(KPHCC_fake_script)()
+local function KHNDWFB_fake_script() -- main.LocalScript 
 	local script = Instance.new('LocalScript', main)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Frame10.Visible = true
 	end)
 end
-coroutine.wrap(EQFSXN_fake_script)()
-local function ENCXFL_fake_script() -- Frame10.LocalScript 
+coroutine.wrap(KHNDWFB_fake_script)()
+local function VTBKTF_fake_script() -- Frame10.LocalScript 
 	local script = Instance.new('LocalScript', Frame10)
 
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 	script.Parent.Draggable = true 
 end
-coroutine.wrap(ENCXFL_fake_script)()
-local function PPQSPB_fake_script() -- Close.LocalScript 
-	local script = Instance.new('LocalScript', Close)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
-end
-coroutine.wrap(PPQSPB_fake_script)()
-local function OMIQDE_fake_script() -- Frame2.LocalScript 
-	local script = Instance.new('LocalScript', Frame2)
-
-	script.Parent.Selectable = true
-	script.Parent.Active = true
-	script.Parent.Draggable = true 
-end
-coroutine.wrap(OMIQDE_fake_script)()
-local function NCVGUF_fake_script() -- Close_2.LocalScript 
-	local script = Instance.new('LocalScript', Close_2)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
-end
-coroutine.wrap(NCVGUF_fake_script)()
-local function BKCZAM_fake_script() -- Frame3.LocalScript 
-	local script = Instance.new('LocalScript', Frame3)
-
-	script.Parent.Selectable = true
-	script.Parent.Active = true
-	script.Parent.Draggable = true 
-end
-coroutine.wrap(BKCZAM_fake_script)()
-local function KKJOWAI_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(VTBKTF_fake_script)()
+local function GZLGWF_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(KKJOWAI_fake_script)()
-local function SJRNHNB_fake_script() -- FastEgg.LocalScript 
+coroutine.wrap(GZLGWF_fake_script)()
+local function KLRR_fake_script() -- FastEgg.LocalScript 
 	local script = Instance.new('LocalScript', FastEgg)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Frame2.Visible = true
+		script.Parent.Parent.Parent.Frame2.Visible = true
 	end)
 end
-coroutine.wrap(SJRNHNB_fake_script)()
-local function DDQZO_fake_script() -- MoreGames.LocalScript 
+coroutine.wrap(KLRR_fake_script)()
+local function IQVJ_fake_script() -- MoreGames.LocalScript 
 	local script = Instance.new('LocalScript', MoreGames)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Frame3.Visible = true
+		script.Parent.Parent.Parent.Frame3.Visible = true
 	end)
 end
-coroutine.wrap(DDQZO_fake_script)()
+coroutine.wrap(IQVJ_fake_script)()
+local function SSVCHE_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(SSVCHE_fake_script)()
+local function TPCRYZ_fake_script() -- Frame2.LocalScript 
+	local script = Instance.new('LocalScript', Frame2)
+
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+	script.Parent.Draggable = true 
+end
+coroutine.wrap(TPCRYZ_fake_script)()
+local function STAOXRZ_fake_script() -- Frame3.LocalScript 
+	local script = Instance.new('LocalScript', Frame3)
+
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+	script.Parent.Draggable = true 
+end
+coroutine.wrap(STAOXRZ_fake_script)()
+local function WKVFKK_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(WKVFKK_fake_script)()
