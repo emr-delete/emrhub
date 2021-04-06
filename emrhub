@@ -11,7 +11,7 @@ local LoginButton = Instance.new("TextButton")
 local box = Instance.new("ImageLabel")
 local Password = Instance.new("TextBox")
 local CoolThing = Instance.new("TextLabel")
-local discord = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
 local main = Instance.new("TextButton")
 local Frame10 = Instance.new("Frame")
@@ -26,6 +26,9 @@ local kenar_3 = Instance.new("ImageLabel")
 local kenar_4 = Instance.new("ImageLabel")
 local Panel_2 = Instance.new("TextLabel")
 local Panel_3 = Instance.new("TextLabel")
+local MoreGames2 = Instance.new("TextButton")
+local Discord1 = Instance.new("TextLabel")
+local Discord2 = Instance.new("TextLabel")
 local Frame2 = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
@@ -33,6 +36,7 @@ local EastryEgg = Instance.new("TextButton")
 local CrackedEgg = Instance.new("TextButton")
 local CosmicEgg = Instance.new("TextButton")
 local Close = Instance.new("TextButton")
+local Discord = Instance.new("TextLabel")
 local Frame3 = Instance.new("Frame")
 local Arsenal = Instance.new("TextButton")
 local BeeSwarmSim = Instance.new("TextButton")
@@ -45,19 +49,34 @@ local SaberSim = Instance.new("TextButton")
 local TowerOffHell = Instance.new("TextButton")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
+local Discord_2 = Instance.new("TextLabel")
 local panel123 = Instance.new("Frame")
 local Panel_4 = Instance.new("TextLabel")
+local Panel_5 = Instance.new("TextLabel")
+local Frame4 = Instance.new("Frame")
+local Close_3 = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local MallTycoon = Instance.new("TextButton")
+local Discord_3 = Instance.new("TextLabel")
+local Adoptme = Instance.new("TextButton")
+local RagdolEngine = Instance.new("TextButton")
+local BloxFruits = Instance.new("TextButton")
+local RoyaleHigh = Instance.new("TextButton")
+local BeeSim = Instance.new("TextButton")
+local Shindo = Instance.new("TextButton")
+local MeepCity = Instance.new("TextButton")
 
 --Properties:
 
 StarterGui.Name = "StarterGui"
-StarterGui.Parent = game.CoreGui
+StarterGui.Parent = game.Workspace
 
 Login.Name = "Login"
 Login.Parent = StarterGui
 Login.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Login.BorderSizePixel = 0
-Login.Position = UDim2.new(0.416218728, 0, 0.355748773, 0)
+Login.Position = UDim2.new(0.416218728, 0, 0.356940657, 0)
 Login.Size = UDim2.new(0, 275, 0, 130)
 
 Panel.Name = "Panel"
@@ -129,19 +148,24 @@ CoolThing.Text = ""
 CoolThing.TextColor3 = Color3.fromRGB(0, 0, 0)
 CoolThing.TextSize = 14.000
 
-discord.Name = "discord"
-discord.Parent = Login
-discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-discord.Position = UDim2.new(-1.3860606, 0, 0.255060315, 0)
-discord.Size = UDim2.new(0, 272, 0, 62)
+ImageLabel.Parent = Login
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(-0.76363641, 0, 1.90769231, 0)
+ImageLabel.Size = UDim2.new(0, 164, 0, 161)
+ImageLabel.Image = "rbxassetid://6646342961"
 
-TextLabel.Parent = discord
+TextLabel.Parent = Login
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.Size = UDim2.new(0, 272, 0, 62)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.167272747, 0, 1.90769231, 0)
+TextLabel.Size = UDim2.new(0, 609, 0, 161)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "join discord for the key [ZfKe7rWC]"
+TextLabel.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
 main.Name = "main"
 main.Parent = StarterGui
@@ -160,7 +184,7 @@ main.TextWrapped = true
 Frame10.Name = "Frame10"
 Frame10.Parent = StarterGui
 Frame10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame10.Position = UDim2.new(0.330303073, 0, 0.276519656, 0)
+Frame10.Position = UDim2.new(0.331515193, 0, 0.278903455, 0)
 Frame10.Size = UDim2.new(0, 556, 0, 371)
 Frame10.Visible = false
 
@@ -240,8 +264,8 @@ FastEgg.TextWrapped = true
 MoreGames.Name = "MoreGames"
 MoreGames.Parent = Frame10
 MoreGames.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
-MoreGames.Position = UDim2.new(0.0685834289, 0, 0.614639938, 0)
-MoreGames.Size = UDim2.new(0, 485, 0, 76)
+MoreGames.Position = UDim2.new(0.0254179612, 0, 0.614639997, 0)
+MoreGames.Size = UDim2.new(0, 260, 0, 76)
 MoreGames.Font = Enum.Font.SourceSans
 MoreGames.Text = "More Games"
 MoreGames.TextColor3 = Color3.fromRGB(85, 255, 127)
@@ -328,6 +352,46 @@ Panel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Panel_3.TextScaled = true
 Panel_3.TextSize = 18.000
 Panel_3.TextWrapped = true
+
+MoreGames2.Name = "MoreGames2"
+MoreGames2.Parent = Frame10
+MoreGames2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+MoreGames2.Position = UDim2.new(0.509230912, 0, 0.614639997, 0)
+MoreGames2.Size = UDim2.new(0, 260, 0, 76)
+MoreGames2.Font = Enum.Font.SourceSans
+MoreGames2.Text = "More Games 2"
+MoreGames2.TextColor3 = Color3.fromRGB(85, 255, 127)
+MoreGames2.TextScaled = true
+MoreGames2.TextSize = 14.000
+MoreGames2.TextWrapped = true
+
+Discord1.Name = "Discord1"
+Discord1.Parent = Frame10
+Discord1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord1.BackgroundTransparency = 1.000
+Discord1.BorderSizePixel = 0
+Discord1.Position = UDim2.new(0.00918568112, 0, 0.115571223, 0)
+Discord1.Size = UDim2.new(0, 543, 0, 37)
+Discord1.Font = Enum.Font.SourceSans
+Discord1.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord1.TextScaled = true
+Discord1.TextSize = 14.000
+Discord1.TextWrapped = true
+
+Discord2.Name = "Discord2"
+Discord2.Parent = Frame10
+Discord2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord2.BackgroundTransparency = 1.000
+Discord2.BorderSizePixel = 0
+Discord2.Position = UDim2.new(0.00918568112, 0, 0.819491744, 0)
+Discord2.Size = UDim2.new(0, 543, 0, 25)
+Discord2.Font = Enum.Font.SourceSans
+Discord2.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord2.TextScaled = true
+Discord2.TextSize = 14.000
+Discord2.TextWrapped = true
 
 Frame2.Name = "Frame2"
 Frame2.Parent = StarterGui
@@ -428,7 +492,6 @@ CrackedEgg.MouseButton1Down:connect(function()
 	})	
 end)
 
-
 CosmicEgg.Name = "Cosmic Egg"
 CosmicEgg.Parent = Frame2
 CosmicEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
@@ -464,7 +527,6 @@ CosmicEgg.MouseButton1Down:connect(function()
 	})	
 end)
 
-
 Close.Name = "Close"
 Close.Parent = Frame2
 Close.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
@@ -477,6 +539,20 @@ Close.TextColor3 = Color3.fromRGB(170, 0, 0)
 Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
+
+Discord.Name = "Discord"
+Discord.Parent = Frame2
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord.BackgroundTransparency = 1.000
+Discord.BorderSizePixel = 0
+Discord.Position = UDim2.new(0, 0, 0.776790798, 0)
+Discord.Size = UDim2.new(0, 395, 0, 34)
+Discord.Font = Enum.Font.SourceSans
+Discord.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextWrapped = true
 
 Frame3.Name = "Frame3"
 Frame3.Parent = StarterGui
@@ -512,7 +588,7 @@ BeeSwarmSim.TextScaled = true
 BeeSwarmSim.TextSize = 14.000
 BeeSwarmSim.TextWrapped = true
 BeeSwarmSim.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/iC4VXeXA"))()
+	loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
 end)
 
 Bloxburg.Name = "Bloxburg"
@@ -527,7 +603,7 @@ Bloxburg.TextScaled = true
 Bloxburg.TextSize = 14.000
 Bloxburg.TextWrapped = true
 Bloxburg.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/5ZyXEkBF"))()
+	loadstring(game:HttpGet('http://alpha1004.tech/scripts/AlphaX.lua'))()
 end)
 
 Close_2.Name = "Close"
@@ -555,7 +631,7 @@ Jailbreak.TextScaled = true
 Jailbreak.TextSize = 14.000
 Jailbreak.TextWrapped = true
 Jailbreak.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(("https://pastebin.com/rriYhpPQ"),true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Scripts/main/JailBreakGui"))()
 end)
 
 Murder.Name = "Murder"
@@ -570,7 +646,7 @@ Murder.TextScaled = true
 Murder.TextSize = 14.000
 Murder.TextWrapped = true
 Murder.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(("https://pastebin.com/XXuX12Nt"),true))()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/XXuX12Nt"),true))()
 end)
 
 PrisonLife.Name = "Prison Life"
@@ -585,8 +661,9 @@ PrisonLife.TextScaled = true
 PrisonLife.TextSize = 14.000
 PrisonLife.TextWrapped = true
 PrisonLife.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(("https://pastebin.com/azhcDd6d"),true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/PLG%20v3.1.lua",true))()
 end)
+
 
 SaberSim.Name = "Saber Sim"
 SaberSim.Parent = Frame3
@@ -640,6 +717,20 @@ TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
 TextLabel_5.TextWrapped = true
 
+Discord_2.Name = "Discord"
+Discord_2.Parent = Frame3
+Discord_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord_2.BackgroundTransparency = 1.000
+Discord_2.BorderSizePixel = 0
+Discord_2.Position = UDim2.new(0.0292397663, 0, 0.791740358, 0)
+Discord_2.Size = UDim2.new(0, 485, 0, 25)
+Discord_2.Font = Enum.Font.SourceSans
+Discord_2.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord_2.TextScaled = true
+Discord_2.TextSize = 14.000
+Discord_2.TextWrapped = true
+
 panel123.Name = "panel123"
 panel123.Parent = StarterGui
 panel123.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -661,9 +752,464 @@ Panel_4.TextScaled = true
 Panel_4.TextSize = 18.000
 Panel_4.TextWrapped = true
 
+Panel_5.Name = "Panel"
+Panel_5.Parent = panel123
+Panel_5.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Panel_5.BackgroundTransparency = 1.000
+Panel_5.BorderSizePixel = 0
+Panel_5.Position = UDim2.new(6.83918524, 0, 0.120801836, 0)
+Panel_5.Size = UDim2.new(0, 543, 0, 28)
+Panel_5.Font = Enum.Font.SourceSans
+Panel_5.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Panel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Panel_5.TextScaled = true
+Panel_5.TextSize = 18.000
+Panel_5.TextWrapped = true
+
+Frame4.Name = "Frame4"
+Frame4.Parent = StarterGui
+Frame4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame4.Position = UDim2.new(0.00606060075, 0, 0.0274135917, 0)
+Frame4.Size = UDim2.new(0, 513, 0, 348)
+Frame4.Visible = false
+
+Close_3.Name = "Close"
+Close_3.Parent = Frame4
+Close_3.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Close_3.Position = UDim2.new(0.851933241, 0, 0.0224257633, 0)
+Close_3.Size = UDim2.new(0, 51, 0, 44)
+Close_3.ZIndex = 2
+Close_3.Font = Enum.Font.SourceSansBold
+Close_3.Text = "X"
+Close_3.TextColor3 = Color3.fromRGB(170, 0, 0)
+Close_3.TextScaled = true
+Close_3.TextSize = 14.000
+Close_3.TextWrapped = true
+
+TextLabel_6.Parent = Frame4
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.Position = UDim2.new(0.0440414473, 0, 0.864942551, 0)
+TextLabel_6.Size = UDim2.new(0, 478, 0, 39)
+TextLabel_6.Font = Enum.Font.SciFi
+TextLabel_6.Text = "made by emr#1487"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Frame4
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.Position = UDim2.new(0.031088192, 0, 0.0201149434, 0)
+TextLabel_7.Size = UDim2.new(0, 390, 0, 52)
+TextLabel_7.Font = Enum.Font.SciFi
+TextLabel_7.Text = "Games 2"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+MallTycoon.Name = "MallTycoon"
+MallTycoon.Parent = Frame4
+MallTycoon.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MallTycoon.Position = UDim2.new(0.043872498, 0, 0.245763317, 0)
+MallTycoon.Size = UDim2.new(0, 109, 0, 79)
+MallTycoon.Font = Enum.Font.SourceSans
+MallTycoon.Text = "MallTycoon"
+MallTycoon.TextColor3 = Color3.fromRGB(85, 255, 127)
+MallTycoon.TextScaled = true
+MallTycoon.TextSize = 14.000
+MallTycoon.TextWrapped = true
+MallTycoon.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/V0NntEDW"))()
+end)
+
+Discord_3.Name = "Discord"
+Discord_3.Parent = Frame4
+Discord_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord_3.BackgroundTransparency = 1.000
+Discord_3.BorderSizePixel = 0
+Discord_3.Position = UDim2.new(0.023760438, 0, 0.723784268, 0)
+Discord_3.Size = UDim2.new(0, 497, 0, 64)
+Discord_3.Font = Enum.Font.SourceSans
+Discord_3.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord_3.TextScaled = true
+Discord_3.TextSize = 14.000
+Discord_3.TextWrapped = true
+
+Adoptme.Name = "Adoptme"
+Adoptme.Parent = Frame4
+Adoptme.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Adoptme.Position = UDim2.new(0.277790636, 0, 0.245763317, 0)
+Adoptme.Size = UDim2.new(0, 109, 0, 79)
+Adoptme.Font = Enum.Font.SourceSans
+Adoptme.Text = "Adoptme"
+Adoptme.TextColor3 = Color3.fromRGB(85, 255, 127)
+Adoptme.TextScaled = true
+Adoptme.TextSize = 14.000
+Adoptme.TextWrapped = true
+Adoptme.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
+end)
+
+RagdolEngine.Name = "RagdolEngine"
+RagdolEngine.Parent = Frame4
+RagdolEngine.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+RagdolEngine.Position = UDim2.new(0.527303219, 0, 0.245763317, 0)
+RagdolEngine.Size = UDim2.new(0, 109, 0, 79)
+RagdolEngine.Font = Enum.Font.SourceSans
+RagdolEngine.Text = "Ragdoll Engine"
+RagdolEngine.TextColor3 = Color3.fromRGB(85, 255, 127)
+RagdolEngine.TextScaled = true
+RagdolEngine.TextSize = 14.000
+RagdolEngine.TextWrapped = true
+RagdolEngine.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua'),true))()
+end)
+
+BloxFruits.Name = "BloxFruits"
+BloxFruits.Parent = Frame4
+BloxFruits.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+BloxFruits.Position = UDim2.new(0.763170719, 0, 0.245763317, 0)
+BloxFruits.Size = UDim2.new(0, 109, 0, 79)
+BloxFruits.Font = Enum.Font.SourceSans
+BloxFruits.Text = "Blox Fruits"
+BloxFruits.TextColor3 = Color3.fromRGB(85, 255, 127)
+BloxFruits.TextScaled = true
+BloxFruits.TextSize = 14.000
+BloxFruits.TextWrapped = true
+BloxFruits.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/HACKasasas/main/bloxfruitsm",true))()
+
+end)
+
+RoyaleHigh.Name = "Royale High"
+RoyaleHigh.Parent = Frame4
+RoyaleHigh.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+RoyaleHigh.Position = UDim2.new(0.043872498, 0, 0.501510441, 0)
+RoyaleHigh.Size = UDim2.new(0, 109, 0, 79)
+RoyaleHigh.Font = Enum.Font.SourceSans
+RoyaleHigh.Text = "Royale High"
+RoyaleHigh.TextColor3 = Color3.fromRGB(85, 255, 127)
+RoyaleHigh.TextScaled = true
+RoyaleHigh.TextSize = 14.000
+RoyaleHigh.TextWrapped = true
+RoyaleHigh.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Workspace.DIAMONDS:GetDescendants()) do
+		if v.Name == "specialdiamond" or v.Name == "Pink Diamond" or v.Name == "Green Diamond" then
+			v.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+			wait(0.1)
+		end
+	end
+	game:GetService('TeleportService'):Teleport(game.PlaceId)
+end)
+
+BeeSim.Name = "BeeSim"
+BeeSim.Parent = Frame4
+BeeSim.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+BeeSim.Position = UDim2.new(0.277790636, 0, 0.501510441, 0)
+BeeSim.Size = UDim2.new(0, 109, 0, 79)
+BeeSim.Font = Enum.Font.SourceSans
+BeeSim.Text = "Bee Sim"
+BeeSim.TextColor3 = Color3.fromRGB(85, 255, 127)
+BeeSim.TextScaled = true
+BeeSim.TextSize = 14.000
+BeeSim.TextWrapped = true
+BeeSim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Boxking776/RobloxScriptsDotCom/main/BeeSAutofarm.lua'),true))()
+end)
+
+Shindo.Name = "Shindo"
+Shindo.Parent = Frame4
+Shindo.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Shindo.Position = UDim2.new(0.525353968, 0, 0.501510441, 0)
+Shindo.Size = UDim2.new(0, 109, 0, 79)
+Shindo.Font = Enum.Font.SourceSans
+Shindo.Text = "Shindo"
+Shindo.TextColor3 = Color3.fromRGB(85, 255, 127)
+Shindo.TextScaled = true
+Shindo.TextSize = 14.000
+Shindo.TextWrapped = true
+Shindo.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
+end)
+
+MeepCity.Name = "MeepCity"
+MeepCity.Parent = Frame4
+MeepCity.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MeepCity.Position = UDim2.new(0.763170719, 0, 0.501510441, 0)
+MeepCity.Size = UDim2.new(0, 109, 0, 79)
+MeepCity.Font = Enum.Font.SourceSans
+MeepCity.Text = "MeepCity"
+MeepCity.TextColor3 = Color3.fromRGB(85, 255, 127)
+MeepCity.TextScaled = true
+MeepCity.TextSize = 14.000
+MeepCity.TextWrapped = true
+MeepCity.MouseButton1Down:connect(function()
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = "Gui Made By Anwarun";
+		Color = Color3.new(255, 0, 0);
+		Font = Enum.Font.SourceSansBold;
+		FontSize = Enum.FontSize.Size24;
+	})
+
+	wait(1)
+
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = "Script Source : V3rmillion";
+		Color = Color3.new(85, 255, 255);
+		Font = Enum.Font.SourceSansBold;
+		FontSize = Enum.FontSize.Size24;
+	})
+
+	wait(1)
+
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Wait 3 Seconds";
+		Text = "Please Wait 3 Seconds";
+	})
+
+	wait(3)
+
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Anwarun Gui Loaded!";
+		Text = "Gui Made By Anwarun";
+	})
+
+	-- Objects
+
+	local MeepCity = Instance.new("ScreenGui")
+	local MainFrame = Instance.new("Frame")
+	local Title = Instance.new("TextLabel")
+	local Plus = Instance.new("TextButton")
+	local Bantuan = Instance.new("TextButton")
+	local Made = Instance.new("TextLabel")
+	local Tutup = Instance.new("TextButton")
+	local Boom = Instance.new("TextButton")
+	local Money = Instance.new("TextButton")
+	local Chalk = Instance.new("TextButton")
+	local BFrame = Instance.new("Frame")
+	local Dudu = Instance.new("TextLabel")
+	local BanTutup = Instance.new("TextButton")
+	local BuFrame = Instance.new("Frame")
+	local Buka = Instance.new("TextButton")
+
+	-- Properties
+
+	MeepCity.Name = "MeepCity"
+	MeepCity.Parent = game.CoreGui
+
+	MainFrame.Name = "MainFrame"
+	MainFrame.Parent = MeepCity
+	MainFrame.Active = true
+	MainFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+	MainFrame.Position = UDim2.new(0.148325354, 0, 0.268686861, 0)
+	MainFrame.Size = UDim2.new(0, 470, 0, 283)
+	MainFrame.Visible = false
+	MainFrame.Style = Enum.FrameStyle.RobloxSquare
+	MainFrame.Draggable = true
+
+	Title.Name = "Title"
+	Title.Parent = MainFrame
+	Title.BackgroundColor3 = Color3.new(0.247059, 0.247059, 0.247059)
+	Title.Position = UDim2.new(-0.0170212761, 0, -0.0282685515, 0)
+	Title.Size = UDim2.new(0, 470, 0, 30)
+	Title.Font = Enum.Font.SourceSansBold
+	Title.Text = "Meep City Gui"
+	Title.TextColor3 = Color3.new(1, 1, 1)
+	Title.TextSize = 25
+	Title.TextStrokeTransparency = 0.10000000149012
+
+	Plus.Name = "Plus"
+	Plus.Parent = MainFrame
+	Plus.BackgroundColor3 = Color3.new(0, 0, 0)
+	Plus.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+	Plus.BorderSizePixel = 2
+	Plus.Position = UDim2.new(0.0489361696, 0, 0.176678449, 0)
+	Plus.Size = UDim2.new(0, 185, 0, 57)
+	Plus.Font = Enum.Font.Cartoon
+	Plus.Text = "Plus Game Pass"
+	Plus.TextColor3 = Color3.new(1, 1, 1)
+	Plus.TextSize = 20
+	Plus.TextStrokeColor3 = Color3.new(0.333333, 1, 1)
+	Plus.TextStrokeTransparency = 0
+	Plus.MouseButton1Down:connect(function()
+		game.ReplicatedStorage.PlayerData[game.Players.LocalPlayer.UserId].PLUS.Value = true
+	end)
+
+	Bantuan.Name = "Bantuan"
+	Bantuan.Parent = MainFrame
+	Bantuan.BackgroundColor3 = Color3.new(0, 0, 0)
+	Bantuan.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+	Bantuan.BorderSizePixel = 2
+	Bantuan.Position = UDim2.new(0.644680858, 0, 0.879858613, 0)
+	Bantuan.Size = UDim2.new(0, 146, 0, 30)
+	Bantuan.Font = Enum.Font.Cartoon
+	Bantuan.Text = "Help"
+	Bantuan.TextColor3 = Color3.new(1, 1, 1)
+	Bantuan.TextSize = 20
+	Bantuan.TextStrokeColor3 = Color3.new(0.333333, 1, 1)
+	Bantuan.TextStrokeTransparency = 0
+	Bantuan.MouseButton1Down:connect(function()
+		BFrame.Visible = true
+	end)
+
+	Made.Name = "Made"
+	Made.Parent = MainFrame
+	Made.BackgroundColor3 = Color3.new(0.247059, 0.247059, 0.247059)
+	Made.BackgroundTransparency = 1
+	Made.Position = UDim2.new(0.08723405, 0, 0.936395764, 0)
+	Made.Size = UDim2.new(0, 59, 0, 15)
+	Made.Font = Enum.Font.SourceSansBold
+	Made.Text = "Gui Made By Anwarun"
+	Made.TextColor3 = Color3.new(1, 1, 1)
+	Made.TextSize = 19
+	Made.TextStrokeTransparency = 0.10000000149012
+
+	Tutup.Name = "Tutup"
+	Tutup.Parent = MainFrame
+	Tutup.BackgroundColor3 = Color3.new(0, 0, 0)
+	Tutup.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+	Tutup.BorderSizePixel = 2
+	Tutup.Position = UDim2.new(0.929787219, 0, -0.0282685515, 0)
+	Tutup.Size = UDim2.new(0, 40, 0, 30)
+	Tutup.Font = Enum.Font.Cartoon
+	Tutup.Text = "X"
+	Tutup.TextColor3 = Color3.new(1, 1, 1)
+	Tutup.TextSize = 20
+	Tutup.TextStrokeColor3 = Color3.new(0.333333, 1, 1)
+	Tutup.TextStrokeTransparency = 0
+	Tutup.MouseButton1Down:connect(function()
+		MainFrame.Visible = false
+		BuFrame.Visible = true
+	end)
+
+	Boom.Name = "Boom"
+	Boom.Parent = MainFrame
+	Boom.BackgroundColor3 = Color3.new(0, 0, 0)
+	Boom.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+	Boom.BorderSizePixel = 2
+	Boom.Position = UDim2.new(0.506383002, 0, 0.176678449, 0)
+	Boom.Size = UDim2.new(0, 185, 0, 57)
+	Boom.Font = Enum.Font.Cartoon
+	Boom.Text = "Boom Box Pass"
+	Boom.TextColor3 = Color3.new(1, 1, 1)
+	Boom.TextSize = 20
+	Boom.TextStrokeColor3 = Color3.new(0.333333, 1, 1)
+	Boom.TextStrokeTransparency = 0
+	Boom.MouseButton1Down:connect(function()
+		game.ReplicatedStorage.PlayerData[game.Players.LocalPlayer.UserId].BoomBox.Value = true
+	end)
+
+	Money.Name = "Money"
+	Money.Parent = MainFrame
+	Money.BackgroundColor3 = Color3.new(0, 0, 0)
+	Money.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+	Money.BorderSizePixel = 2
+	Money.Position = UDim2.new(0.506383002, 0, 0.455830395, 0)
+	Money.Size = UDim2.new(0, 185, 0, 57)
+	Money.Font = Enum.Font.Cartoon
+	Money.Text = "Money Farm"
+	Money.TextColor3 = Color3.new(1, 1, 1)
+	Money.TextSize = 20
+	Money.TextStrokeColor3 = Color3.new(0.333333, 1, 1)
+	Money.TextStrokeTransparency = 0
+	Money.MouseButton1Down:connect(function()
+		game.ReplicatedStorage.Connection:InvokeServer(9,2) --Made by Amicus Vale
+		game.ReplicatedStorage.Connection:InvokeServer(50)
+		game.ReplicatedStorage.PlayerData[game.Players.LocalPlayer.UserId].PLUS.Value = true -- this will give you more money when you sell
+		while wait() do
+			game.ReplicatedStorage.Connection:InvokeServer(49)
+			game.ReplicatedStorage.Connection:InvokeServer(51)
+		end 
+	end)
+
+	Chalk.Name = "Chalk"
+	Chalk.Parent = MainFrame
+	Chalk.BackgroundColor3 = Color3.new(0, 0, 0)
+	Chalk.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+	Chalk.BorderSizePixel = 2
+	Chalk.Position = UDim2.new(0.0489361919, 0, 0.455830395, 0)
+	Chalk.Size = UDim2.new(0, 185, 0, 57)
+	Chalk.Font = Enum.Font.Cartoon
+	Chalk.Text = "Chalk Pass"
+	Chalk.TextColor3 = Color3.new(1, 1, 1)
+	Chalk.TextSize = 20
+	Chalk.TextStrokeColor3 = Color3.new(0.333333, 1, 1)
+	Chalk.TextStrokeTransparency = 0
+	Chalk.MouseButton1Down:connect(function()
+		game.ReplicatedStorage.PlayerData[game.Players.LocalPlayer.UserId].ChalkPass.Value = true
+	end)
+
+	BFrame.Name = "BFrame"
+	BFrame.Parent = MeepCity
+	BFrame.Active = true
+	BFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+	BFrame.Position = UDim2.new(0.185007975, 0, 0.282828301, 0)
+	BFrame.Size = UDim2.new(0, 395, 0, 214)
+	BFrame.Visible = false
+	BFrame.Style = Enum.FrameStyle.RobloxSquare
+	BFrame.Draggable = true
+
+	Dudu.Name = "Dudu"
+	Dudu.Parent = BFrame
+	Dudu.Active = true
+	Dudu.BackgroundColor3 = Color3.new(1, 1, 1)
+	Dudu.BackgroundTransparency = 1
+	Dudu.Position = UDim2.new(-0.0202531647, 0, -0.0186915882, 0)
+	Dudu.Size = UDim2.new(0, 395, 0, 206)
+	Dudu.Font = Enum.Font.SourceSansBold
+	Dudu.Text = "Money Farm : Go To Phising Place PHISING THE FISH AND SELL FISH                                                                                        PLUS PASS: YOU CAN GET WINGS IN SHOP                                        ANOTHER ? I DONT KNOW , BTW THX FOR USE THIS GUI :D                                                                                                                                    MADE BY : ANWARUN"
+	Dudu.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
+	Dudu.TextSize = 19
+	Dudu.TextWrapped = true
+	Dudu.TextXAlignment = Enum.TextXAlignment.Left
+	Dudu.TextYAlignment = Enum.TextYAlignment.Top
+
+	BanTutup.Name = "BanTutup"
+	BanTutup.Parent = BFrame
+	BanTutup.Active = false
+	BanTutup.BackgroundColor3 = Color3.new(0, 0, 0)
+	BanTutup.BorderColor3 = Color3.new(0.415686, 0.415686, 0.415686)
+	BanTutup.BorderSizePixel = 2
+	BanTutup.Position = UDim2.new(0.493670881, 0, 0.785046697, 0)
+	BanTutup.Size = UDim2.new(0, 200, 0, 50)
+	BanTutup.Font = Enum.Font.SourceSansBold
+	BanTutup.Text = "TUTUP / CLOSE"
+	BanTutup.TextColor3 = Color3.new(1, 1, 1)
+	BanTutup.TextSize = 20
+	BanTutup.MouseButton1Down:connect(function()
+		BFrame.Visible = false
+	end)
+
+	BuFrame.Name = "BuFrame"
+	BuFrame.Parent = MeepCity
+	BuFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+	BuFrame.BorderColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+	BuFrame.BorderSizePixel = 2
+	BuFrame.Position = UDim2.new(0, 0, 0.474747479, 0)
+	BuFrame.Size = UDim2.new(0, 179, 0, 52)
+
+	Buka.Name = "Buka"
+	Buka.Parent = BuFrame
+	Buka.BackgroundColor3 = Color3.new(1, 1, 1)
+	Buka.BackgroundTransparency = 1
+	Buka.Size = UDim2.new(0, 179, 0, 52)
+	Buka.Font = Enum.Font.SourceSansBold
+	Buka.Text = "BUKA / OPEN"
+	Buka.TextColor3 = Color3.new(1, 1, 1)
+	Buka.TextScaled = true
+	Buka.TextSize = 14
+	Buka.TextWrapped = true
+	Buka.MouseButton1Down:connect(function()
+		BuFrame.Visible = false
+		MainFrame.Visible = true
+	end)
+end)
+
 -- Scripts:
 
-local function KPHCC_fake_script() -- LoginButton.LocalScript 
+local function DQVIQY_fake_script() -- LoginButton.LocalScript 
 	local script = Instance.new('LocalScript', LoginButton)
 
 	local password = script.Parent.Parent.Parent.box.Password
@@ -683,76 +1229,100 @@ local function KPHCC_fake_script() -- LoginButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KPHCC_fake_script)()
-local function KHNDWFB_fake_script() -- main.LocalScript 
+coroutine.wrap(DQVIQY_fake_script)()
+local function COPI_fake_script() -- main.LocalScript 
 	local script = Instance.new('LocalScript', main)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Frame10.Visible = true
 	end)
 end
-coroutine.wrap(KHNDWFB_fake_script)()
-local function VTBKTF_fake_script() -- Frame10.LocalScript 
+coroutine.wrap(COPI_fake_script)()
+local function RLUJ_fake_script() -- Frame10.LocalScript 
 	local script = Instance.new('LocalScript', Frame10)
 
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 	script.Parent.Draggable = true 
 end
-coroutine.wrap(VTBKTF_fake_script)()
-local function GZLGWF_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(RLUJ_fake_script)()
+local function SWEYRI_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(GZLGWF_fake_script)()
-local function KLRR_fake_script() -- FastEgg.LocalScript 
+coroutine.wrap(SWEYRI_fake_script)()
+local function HIJCWIJ_fake_script() -- FastEgg.LocalScript 
 	local script = Instance.new('LocalScript', FastEgg)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Frame2.Visible = true
 	end)
 end
-coroutine.wrap(KLRR_fake_script)()
-local function IQVJ_fake_script() -- MoreGames.LocalScript 
+coroutine.wrap(HIJCWIJ_fake_script)()
+local function TBAD_fake_script() -- MoreGames.LocalScript 
 	local script = Instance.new('LocalScript', MoreGames)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Frame3.Visible = true
 	end)
 end
-coroutine.wrap(IQVJ_fake_script)()
-local function SSVCHE_fake_script() -- Close.LocalScript 
+coroutine.wrap(TBAD_fake_script)()
+local function IWYKK_fake_script() -- MoreGames2.LocalScript 
+	local script = Instance.new('LocalScript', MoreGames2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Frame4.Visible = true
+	end)
+end
+coroutine.wrap(IWYKK_fake_script)()
+local function JLSBJ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(SSVCHE_fake_script)()
-local function TPCRYZ_fake_script() -- Frame2.LocalScript 
+coroutine.wrap(JLSBJ_fake_script)()
+local function QVERFXP_fake_script() -- Frame2.LocalScript 
 	local script = Instance.new('LocalScript', Frame2)
 
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 	script.Parent.Draggable = true 
 end
-coroutine.wrap(TPCRYZ_fake_script)()
-local function STAOXRZ_fake_script() -- Frame3.LocalScript 
+coroutine.wrap(QVERFXP_fake_script)()
+local function EFLS_fake_script() -- Frame3.LocalScript 
 	local script = Instance.new('LocalScript', Frame3)
 
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 	script.Parent.Draggable = true 
 end
-coroutine.wrap(STAOXRZ_fake_script)()
-local function WKVFKK_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(EFLS_fake_script)()
+local function TVRDF_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(WKVFKK_fake_script)()
+coroutine.wrap(TVRDF_fake_script)()
+local function ADGD_fake_script() -- Frame4.LocalScript 
+	local script = Instance.new('LocalScript', Frame4)
+
+	script.Parent.Selectable = true
+	script.Parent.Active = true
+	script.Parent.Draggable = true 
+end
+coroutine.wrap(ADGD_fake_script)()
+local function XGUWPQ_fake_script() -- Close_3.LocalScript 
+	local script = Instance.new('LocalScript', Close_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(XGUWPQ_fake_script)()
