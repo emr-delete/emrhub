@@ -70,7 +70,7 @@ local MeepCity = Instance.new("TextButton")
 --Properties:
 
 StarterGui.Name = "StarterGui"
-StarterGui.Parent = game.Workspace
+StarterGui.Parent = game.CoreGui
 
 Login.Name = "Login"
 Login.Parent = StarterGui
