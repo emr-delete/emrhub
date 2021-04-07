@@ -1,6 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
-
+-- made by emr#1487
 -- Instances:
 
 local StarterGui = Instance.new("ScreenGui")
