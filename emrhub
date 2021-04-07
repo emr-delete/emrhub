@@ -1,6 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
--- made by emr#1487
+
 -- Instances:
 
 local StarterGui = Instance.new("ScreenGui")
@@ -71,6 +71,46 @@ local MeepCity = Instance.new("TextButton")
 
 StarterGui.Name = "StarterGui"
 StarterGui.Parent = game.CoreGui
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "Gui Made By emr#1487";
+	Color = Color3.new(255, 0, 0);
+	Font = Enum.Font.SourceSansBold;
+	FontSize = Enum.FontSize.Size24;
+})
+
+wait(1)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "Script Source : GitHub";
+	Color = Color3.new(85, 255, 255);
+	Font = Enum.Font.SourceSansBold;
+	FontSize = Enum.FontSize.Size24;
+})
+
+wait(1)
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Wait 3 Seconds";
+	Text = "Please Wait 3 Seconds";
+})
+
+wait(3)
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "emr Gui Loaded!";
+	Text = "Gui Made By emr#1478";
+})
+
+wait(2)
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "Join discord for daily key [xmKaBvHm]";
+	Color = Color3.new(255, 0, 0);
+	Font = Enum.Font.SourceSansBold;
+	FontSize = Enum.FontSize.Size24;
+})
+
 
 Login.Name = "Login"
 Login.Parent = StarterGui
@@ -161,7 +201,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(-0.167272747, 0, 1.90769231, 0)
 TextLabel.Size = UDim2.new(0, 609, 0, 161)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+TextLabel.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -220,6 +260,7 @@ AntiAfk.MouseButton1Down:connect(function()
 		bb:CaptureController()bb:ClickButton2(Vector2.new())
 		ab.Text="Roblox Senı Oyundan Atmaya Calstı Ama Olmadı"wait(150)ab.Text="Hıle Baslaıldı"end)
 end)
+
 
 BgsGui.Name = "BgsGui"
 BgsGui.Parent = Frame10
@@ -373,7 +414,7 @@ Discord1.BorderSizePixel = 0
 Discord1.Position = UDim2.new(0.00918568112, 0, 0.115571223, 0)
 Discord1.Size = UDim2.new(0, 543, 0, 37)
 Discord1.Font = Enum.Font.SourceSans
-Discord1.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord1.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
 Discord1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord1.TextScaled = true
 Discord1.TextSize = 14.000
@@ -387,7 +428,7 @@ Discord2.BorderSizePixel = 0
 Discord2.Position = UDim2.new(0.00918568112, 0, 0.819491744, 0)
 Discord2.Size = UDim2.new(0, 543, 0, 25)
 Discord2.Font = Enum.Font.SourceSans
-Discord2.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord2.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
 Discord2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord2.TextScaled = true
 Discord2.TextSize = 14.000
@@ -548,7 +589,7 @@ Discord.BorderSizePixel = 0
 Discord.Position = UDim2.new(0, 0, 0.776790798, 0)
 Discord.Size = UDim2.new(0, 395, 0, 34)
 Discord.Font = Enum.Font.SourceSans
-Discord.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
 Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord.TextScaled = true
 Discord.TextSize = 14.000
@@ -601,6 +642,7 @@ Bloxburg.Text = "Bloxburg"
 Bloxburg.TextColor3 = Color3.fromRGB(85, 255, 127)
 Bloxburg.TextScaled = true
 Bloxburg.TextSize = 14.000
+Bloxburg.TextWrapped = true
 Bloxburg.TextWrapped = true
 Bloxburg.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('http://alpha1004.tech/scripts/AlphaX.lua'))()
@@ -664,7 +706,6 @@ PrisonLife.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/PLG%20v3.1.lua",true))()
 end)
 
-
 SaberSim.Name = "Saber Sim"
 SaberSim.Parent = Frame3
 SaberSim.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
@@ -679,6 +720,7 @@ SaberSim.TextWrapped = true
 SaberSim.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://gist.githubusercontent.com/MincraftGamerYTPRO/4856a0e840f31f16767df1537465b14f/raw/c5494726d554649ac3e0fc6f5870be393a344f66/gistfile1.txt"))()
 end)
+
 
 TowerOffHell.Name = "TowerOffHell"
 TowerOffHell.Parent = Frame3
@@ -725,7 +767,7 @@ Discord_2.BorderSizePixel = 0
 Discord_2.Position = UDim2.new(0.0292397663, 0, 0.791740358, 0)
 Discord_2.Size = UDim2.new(0, 485, 0, 25)
 Discord_2.Font = Enum.Font.SourceSans
-Discord_2.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord_2.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
 Discord_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord_2.TextScaled = true
 Discord_2.TextSize = 14.000
@@ -743,7 +785,7 @@ Panel_4.Parent = panel123
 Panel_4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Panel_4.BackgroundTransparency = 1.000
 Panel_4.BorderSizePixel = 0
-Panel_4.Position = UDim2.new(6.84918547, 0, -0.159198165, 0)
+Panel_4.Position = UDim2.new(6.73918533, 0, -0.0691986084, 0)
 Panel_4.Size = UDim2.new(0, 543, 0, 28)
 Panel_4.Font = Enum.Font.SourceSans
 Panel_4.Text = "Made by esc community emr#1487"
@@ -757,10 +799,10 @@ Panel_5.Parent = panel123
 Panel_5.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Panel_5.BackgroundTransparency = 1.000
 Panel_5.BorderSizePixel = 0
-Panel_5.Position = UDim2.new(6.83918524, 0, 0.120801836, 0)
+Panel_5.Position = UDim2.new(6.83918524, 0, 0.200801373, 0)
 Panel_5.Size = UDim2.new(0, 543, 0, 28)
 Panel_5.Font = Enum.Font.SourceSans
-Panel_5.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Panel_5.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
 Panel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Panel_5.TextScaled = true
 Panel_5.TextSize = 18.000
@@ -831,7 +873,7 @@ Discord_3.BorderSizePixel = 0
 Discord_3.Position = UDim2.new(0.023760438, 0, 0.723784268, 0)
 Discord_3.Size = UDim2.new(0, 497, 0, 64)
 Discord_3.Font = Enum.Font.SourceSans
-Discord_3.Text = "JOIN DISCORD FOR DAILY KEY  [mKaBvHm]"
+Discord_3.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
 Discord_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord_3.TextScaled = true
 Discord_3.TextSize = 14.000
@@ -880,7 +922,6 @@ BloxFruits.TextSize = 14.000
 BloxFruits.TextWrapped = true
 BloxFruits.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/HACKasasas/main/bloxfruitsm",true))()
-
 end)
 
 RoyaleHigh.Name = "Royale High"
@@ -947,7 +988,7 @@ MeepCity.TextSize = 14.000
 MeepCity.TextWrapped = true
 MeepCity.MouseButton1Down:connect(function()
 	game.StarterGui:SetCore("ChatMakeSystemMessage", {
-		Text = "Gui Made By Anwarun";
+		Text = "Gui Made By emr#1487";
 		Color = Color3.new(255, 0, 0);
 		Font = Enum.Font.SourceSansBold;
 		FontSize = Enum.FontSize.Size24;
@@ -972,8 +1013,8 @@ MeepCity.MouseButton1Down:connect(function()
 	wait(3)
 
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "Anwarun Gui Loaded!";
-		Text = "Gui Made By Anwarun";
+		Title = "emr Gui Loaded!";
+		Text = "Gui Made By emr#1478";
 	})
 
 	-- Objects
@@ -1037,7 +1078,7 @@ MeepCity.MouseButton1Down:connect(function()
 		game.ReplicatedStorage.PlayerData[game.Players.LocalPlayer.UserId].PLUS.Value = true
 	end)
 
-	Bantuan.Name = "Bantuan"
+	Bantuan.Name = "Batunan"
 	Bantuan.Parent = MainFrame
 	Bantuan.BackgroundColor3 = Color3.new(0, 0, 0)
 	Bantuan.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
@@ -1061,7 +1102,7 @@ MeepCity.MouseButton1Down:connect(function()
 	Made.Position = UDim2.new(0.08723405, 0, 0.936395764, 0)
 	Made.Size = UDim2.new(0, 59, 0, 15)
 	Made.Font = Enum.Font.SourceSansBold
-	Made.Text = "Gui Made By Anwarun"
+	Made.Text = "Gui Made By emr#1487"
 	Made.TextColor3 = Color3.new(1, 1, 1)
 	Made.TextSize = 19
 	Made.TextStrokeTransparency = 0.10000000149012
@@ -1115,7 +1156,7 @@ MeepCity.MouseButton1Down:connect(function()
 	Money.TextStrokeColor3 = Color3.new(0.333333, 1, 1)
 	Money.TextStrokeTransparency = 0
 	Money.MouseButton1Down:connect(function()
-		game.ReplicatedStorage.Connection:InvokeServer(9,2) --Made by Amicus Vale
+		game.ReplicatedStorage.Connection:InvokeServer(9,2) --Made by emr#1487
 		game.ReplicatedStorage.Connection:InvokeServer(50)
 		game.ReplicatedStorage.PlayerData[game.Players.LocalPlayer.UserId].PLUS.Value = true -- this will give you more money when you sell
 		while wait() do
@@ -1209,7 +1250,7 @@ end)
 
 -- Scripts:
 
-local function DQVIQY_fake_script() -- LoginButton.LocalScript 
+local function LLVLLI_fake_script() -- LoginButton.LocalScript 
 	local script = Instance.new('LocalScript', LoginButton)
 
 	local password = script.Parent.Parent.Parent.box.Password
@@ -1219,8 +1260,8 @@ local function DQVIQY_fake_script() -- LoginButton.LocalScript
 	main.Visible = false
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		if password.Text == "emresc" or 
-			password.Text == "emresc2" then
+		if password.Text == "gGoB8ZtrDDRelH0rNP" or 
+			password.Text == "gGoB8ZtrDDRelH0rNPFc" then
 			login.Visible = false
 			main.Visible = true
 	
@@ -1229,100 +1270,100 @@ local function DQVIQY_fake_script() -- LoginButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DQVIQY_fake_script)()
-local function COPI_fake_script() -- main.LocalScript 
+coroutine.wrap(LLVLLI_fake_script)()
+local function KZHI_fake_script() -- main.LocalScript 
 	local script = Instance.new('LocalScript', main)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Frame10.Visible = true
 	end)
 end
-coroutine.wrap(COPI_fake_script)()
-local function RLUJ_fake_script() -- Frame10.LocalScript 
+coroutine.wrap(KZHI_fake_script)()
+local function XJOCN_fake_script() -- Frame10.LocalScript 
 	local script = Instance.new('LocalScript', Frame10)
 
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 	script.Parent.Draggable = true 
 end
-coroutine.wrap(RLUJ_fake_script)()
-local function SWEYRI_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(XJOCN_fake_script)()
+local function WMFG_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(SWEYRI_fake_script)()
-local function HIJCWIJ_fake_script() -- FastEgg.LocalScript 
+coroutine.wrap(WMFG_fake_script)()
+local function JTSU_fake_script() -- FastEgg.LocalScript 
 	local script = Instance.new('LocalScript', FastEgg)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Frame2.Visible = true
 	end)
 end
-coroutine.wrap(HIJCWIJ_fake_script)()
-local function TBAD_fake_script() -- MoreGames.LocalScript 
+coroutine.wrap(JTSU_fake_script)()
+local function OSCNPSD_fake_script() -- MoreGames.LocalScript 
 	local script = Instance.new('LocalScript', MoreGames)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Frame3.Visible = true
 	end)
 end
-coroutine.wrap(TBAD_fake_script)()
-local function IWYKK_fake_script() -- MoreGames2.LocalScript 
+coroutine.wrap(OSCNPSD_fake_script)()
+local function TVZZAHL_fake_script() -- MoreGames2.LocalScript 
 	local script = Instance.new('LocalScript', MoreGames2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Frame4.Visible = true
 	end)
 end
-coroutine.wrap(IWYKK_fake_script)()
-local function JLSBJ_fake_script() -- Close.LocalScript 
+coroutine.wrap(TVZZAHL_fake_script)()
+local function MOPQSV_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(JLSBJ_fake_script)()
-local function QVERFXP_fake_script() -- Frame2.LocalScript 
+coroutine.wrap(MOPQSV_fake_script)()
+local function EIRXFUZ_fake_script() -- Frame2.LocalScript 
 	local script = Instance.new('LocalScript', Frame2)
 
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 	script.Parent.Draggable = true 
 end
-coroutine.wrap(QVERFXP_fake_script)()
-local function EFLS_fake_script() -- Frame3.LocalScript 
+coroutine.wrap(EIRXFUZ_fake_script)()
+local function IDPHCOG_fake_script() -- Frame3.LocalScript 
 	local script = Instance.new('LocalScript', Frame3)
 
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 	script.Parent.Draggable = true 
 end
-coroutine.wrap(EFLS_fake_script)()
-local function TVRDF_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(IDPHCOG_fake_script)()
+local function ATDRL_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(TVRDF_fake_script)()
-local function ADGD_fake_script() -- Frame4.LocalScript 
+coroutine.wrap(ATDRL_fake_script)()
+local function EWCC_fake_script() -- Frame4.LocalScript 
 	local script = Instance.new('LocalScript', Frame4)
 
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 	script.Parent.Draggable = true 
 end
-coroutine.wrap(ADGD_fake_script)()
-local function XGUWPQ_fake_script() -- Close_3.LocalScript 
+coroutine.wrap(EWCC_fake_script)()
+local function DQSD_fake_script() -- Close_3.LocalScript 
 	local script = Instance.new('LocalScript', Close_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(XGUWPQ_fake_script)()
+coroutine.wrap(DQSD_fake_script)()
