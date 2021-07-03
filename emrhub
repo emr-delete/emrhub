@@ -1128,7 +1128,7 @@ MeepCity.MouseButton1Down:connect(function()
 	Dudu.Position = UDim2.new(-0.0202531647, 0, -0.0186915882, 0)
 	Dudu.Size = UDim2.new(0, 395, 0, 206)
 	Dudu.Font = Enum.Font.SourceSansBold
-	Dudu.Text = "Money Farm : Go To Phising Place PHISING THE FISH AND SELL FISH                                                                                        PLUS PASS: YOU CAN GET WINGS IN SHOP                                        ANOTHER ? I DONT KNOW , BTW THX FOR USE THIS GUI :D                                                                                                                                    
+	Dudu.Text = "Money Farm"                                                                                               
 	Dudu.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
 	Dudu.TextSize = 19
 	Dudu.TextWrapped = true
