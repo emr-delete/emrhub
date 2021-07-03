@@ -1,6 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
--- made by emr#1487
+-- made by emr#7980
 -- Instances:
 
 local StarterGui = Instance.new("ScreenGui")
@@ -32,9 +32,7 @@ local Discord2 = Instance.new("TextLabel")
 local Frame2 = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
-local EastryEgg = Instance.new("TextButton")
-local CrackedEgg = Instance.new("TextButton")
-local CosmicEgg = Instance.new("TextButton")
+local GolfEgg = Instance.new("TextButton")
 local Close = Instance.new("TextButton")
 local Discord = Instance.new("TextLabel")
 local Frame3 = Instance.new("Frame")
@@ -73,7 +71,7 @@ StarterGui.Name = "StarterGui"
 StarterGui.Parent = game.CoreGui
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-	Text = "Gui Made By emr#1487";
+	Text = "Gui Made By emr#7980";
 	Color = Color3.new(255, 0, 0);
 	Font = Enum.Font.SourceSansBold;
 	FontSize = Enum.FontSize.Size24;
@@ -99,18 +97,21 @@ wait(3)
 
 game.StarterGui:SetCore("SendNotification", {
 	Title = "emr Gui Loaded!";
-	Text = "Gui Made By emr#1478";
+	Text = "Gui Made By emr#7980";
 })
 
 wait(2)
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-	Text = "Join discord for daily key [xmKaBvHm]";
+	Text = "Join discord for daily key [discord closed]";
 	Color = Color3.new(255, 0, 0);
 	Font = Enum.Font.SourceSansBold;
 	FontSize = Enum.FontSize.Size24;
 })
 
+
+StarterGui.Name = "StarterGui"
+StarterGui.Parent = game.CoreGui
 
 Login.Name = "Login"
 Login.Parent = StarterGui
@@ -125,7 +126,7 @@ Panel.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Panel.BorderSizePixel = 0
 Panel.Size = UDim2.new(0, 275, 0, 22)
 Panel.Font = Enum.Font.SourceSans
-Panel.Text = "Made by esc community emr#1487"
+Panel.Text = "Made by esc community emr#7980"
 Panel.TextColor3 = Color3.fromRGB(255, 255, 255)
 Panel.TextSize = 18.000
 
@@ -201,7 +202,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(-0.167272747, 0, 1.90769231, 0)
 TextLabel.Size = UDim2.new(0, 609, 0, 161)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
+TextLabel.Text = "JOIN DISCORD FOR DAILY KEY  [discord closed]"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -260,7 +261,6 @@ AntiAfk.MouseButton1Down:connect(function()
 		bb:CaptureController()bb:ClickButton2(Vector2.new())
 		ab.Text="Roblox Senı Oyundan Atmaya Calstı Ama Olmadı"wait(150)ab.Text="Hıle Baslaıldı"end)
 end)
-
 
 BgsGui.Name = "BgsGui"
 BgsGui.Parent = Frame10
@@ -388,7 +388,7 @@ Panel_3.BorderSizePixel = 0
 Panel_3.Position = UDim2.new(0.00918573607, 0, 0.890801847, 0)
 Panel_3.Size = UDim2.new(0, 543, 0, 28)
 Panel_3.Font = Enum.Font.SourceSans
-Panel_3.Text = "Made by esc community emr#1487"
+Panel_3.Text = "Made by esc community emr#7980"
 Panel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Panel_3.TextScaled = true
 Panel_3.TextSize = 18.000
@@ -414,7 +414,7 @@ Discord1.BorderSizePixel = 0
 Discord1.Position = UDim2.new(0.00918568112, 0, 0.115571223, 0)
 Discord1.Size = UDim2.new(0, 543, 0, 37)
 Discord1.Font = Enum.Font.SourceSans
-Discord1.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
+Discord1.Text = "JOIN DISCORD FOR DAILY KEY  [discord closed]"
 Discord1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord1.TextScaled = true
 Discord1.TextSize = 14.000
@@ -428,7 +428,7 @@ Discord2.BorderSizePixel = 0
 Discord2.Position = UDim2.new(0.00918568112, 0, 0.819491744, 0)
 Discord2.Size = UDim2.new(0, 543, 0, 25)
 Discord2.Font = Enum.Font.SourceSans
-Discord2.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
+Discord2.Text = "JOIN DISCORD FOR DAILY KEY  [discord closed]"
 Discord2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord2.TextScaled = true
 Discord2.TextSize = 14.000
@@ -446,7 +446,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.Position = UDim2.new(0.0310880821, 0, 0.0201149434, 0)
 TextLabel_2.Size = UDim2.new(0, 309, 0, 52)
 TextLabel_2.Font = Enum.Font.SciFi
-TextLabel_2.Text = "BGS NEW UPDATE EASTER 2021"
+TextLabel_2.Text = "BGS GOLF EGG FAST HATCH"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 255)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -457,29 +457,29 @@ TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.Position = UDim2.new(0.0440414511, 0, 0.864942491, 0)
 TextLabel_3.Size = UDim2.new(0, 351, 0, 39)
 TextLabel_3.Font = Enum.Font.SciFi
-TextLabel_3.Text = "made by emr#1487"
+TextLabel_3.Text = "made by emr#7980"
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 255)
 TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextWrapped = true
 
-EastryEgg.Name = "Eastry Egg"
-EastryEgg.Parent = Frame2
-EastryEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-EastryEgg.Position = UDim2.new(0.570850968, 0, 0.518579185, 0)
-EastryEgg.Size = UDim2.new(0, 139, 0, 99)
-EastryEgg.Font = Enum.Font.SourceSans
-EastryEgg.Text = "Eastry Egg"
-EastryEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
-EastryEgg.TextScaled = true
-EastryEgg.TextSize = 14.000
-EastryEgg.TextWrapped = true
-EastryEgg.MouseButton1Down:connect(function()
+GolfEgg.Name = "Golf Egg"
+GolfEgg.Parent = Frame2
+GolfEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+GolfEgg.Position = UDim2.new(0.311106563, 0, 0.370618582, 0)
+GolfEgg.Size = UDim2.new(0, 139, 0, 99)
+GolfEgg.Font = Enum.Font.SourceSans
+GolfEgg.Text = "Golf Egg"
+GolfEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
+GolfEgg.TextScaled = true
+GolfEgg.TextSize = 14.000
+GolfEgg.TextWrapped = true
+GolfEgg.MouseButton1Down:connect(function()
 	_G.OpAutoFarm = true
 	while wait() and _G.OpAutoFarm do
 		local args = {
 			[1] = "PurchaseEgg",
-			[2] = "Eastery Egg",
+			[2] = "GolfEgg",
 			[3] = "Multi",
 		}
 
@@ -493,79 +493,9 @@ EastryEgg.MouseButton1Down:connect(function()
 	end
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Fast Open Egg X2";
-		Text = "Made By Esc Comminty emr#1487";
+		Text = "Made By Esc Comminty emr#7980";
 		Duration = 25;
 	})
-end)
-
-CrackedEgg.Name = "Cracked Egg"
-CrackedEgg.Parent = Frame2
-CrackedEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-CrackedEgg.Position = UDim2.new(0.293385059, 0, 0.202659905, 0)
-CrackedEgg.Size = UDim2.new(0, 139, 0, 99)
-CrackedEgg.Font = Enum.Font.SourceSans
-CrackedEgg.Text = "Cracked Egg"
-CrackedEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
-CrackedEgg.TextScaled = true
-CrackedEgg.TextSize = 14.000
-CrackedEgg.TextWrapped = true
-CrackedEgg.MouseButton1Down:connect(function()
-	_G.OpAutoFarm = true
-	while wait() and _G.OpAutoFarm do
-		local args = {
-			[1] = "PurchaseEgg",
-			[2] = "Cracked Egg",
-			[3] = "Multi",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-
-		local args = {
-			[1] = "BlowBubble",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-	end
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Fast Open Egg X2";
-		Text = "Made By Esc Comminty emr#1487";
-		Duration = 25;
-	})	
-end)
-
-CosmicEgg.Name = "Cosmic Egg"
-CosmicEgg.Parent = Frame2
-CosmicEgg.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-CosmicEgg.Position = UDim2.new(0.0300124176, 0, 0.520230949, 0)
-CosmicEgg.Size = UDim2.new(0, 139, 0, 99)
-CosmicEgg.Font = Enum.Font.SourceSans
-CosmicEgg.Text = "Cosmic Egg"
-CosmicEgg.TextColor3 = Color3.fromRGB(85, 255, 127)
-CosmicEgg.TextScaled = true
-CosmicEgg.TextSize = 14.000
-CosmicEgg.TextWrapped = true
-CosmicEgg.MouseButton1Down:connect(function()
-	_G.OpAutoFarm = true
-	while wait() and _G.OpAutoFarm do
-		local args = {
-			[1] = "PurchaseEgg",
-			[2] = "Cosmic Egg",
-			[3] = "Multi",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-
-		local args = {
-			[1] = "BlowBubble",
-		}
-
-		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
-	end
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Fast Open Egg X2";
-		Text = "Made By Esc Comminty emr#1487";
-		Duration = 25;
-	})	
 end)
 
 Close.Name = "Close"
@@ -589,7 +519,7 @@ Discord.BorderSizePixel = 0
 Discord.Position = UDim2.new(0, 0, 0.776790798, 0)
 Discord.Size = UDim2.new(0, 395, 0, 34)
 Discord.Font = Enum.Font.SourceSans
-Discord.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
+Discord.Text = "JOIN DISCORD FOR DAILY KEY  [discord closed]"
 Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord.TextScaled = true
 Discord.TextSize = 14.000
@@ -642,7 +572,6 @@ Bloxburg.Text = "Bloxburg"
 Bloxburg.TextColor3 = Color3.fromRGB(85, 255, 127)
 Bloxburg.TextScaled = true
 Bloxburg.TextSize = 14.000
-Bloxburg.TextWrapped = true
 Bloxburg.TextWrapped = true
 Bloxburg.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('http://alpha1004.tech/scripts/AlphaX.lua'))()
@@ -721,7 +650,6 @@ SaberSim.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://gist.githubusercontent.com/MincraftGamerYTPRO/4856a0e840f31f16767df1537465b14f/raw/c5494726d554649ac3e0fc6f5870be393a344f66/gistfile1.txt"))()
 end)
 
-
 TowerOffHell.Name = "TowerOffHell"
 TowerOffHell.Parent = Frame3
 TowerOffHell.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
@@ -767,7 +695,7 @@ Discord_2.BorderSizePixel = 0
 Discord_2.Position = UDim2.new(0.0292397663, 0, 0.791740358, 0)
 Discord_2.Size = UDim2.new(0, 485, 0, 25)
 Discord_2.Font = Enum.Font.SourceSans
-Discord_2.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
+Discord_2.Text = "JOIN DISCORD FOR DAILY KEY  [discord closed]"
 Discord_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord_2.TextScaled = true
 Discord_2.TextSize = 14.000
@@ -788,7 +716,7 @@ Panel_4.BorderSizePixel = 0
 Panel_4.Position = UDim2.new(6.73918533, 0, -0.0691986084, 0)
 Panel_4.Size = UDim2.new(0, 543, 0, 28)
 Panel_4.Font = Enum.Font.SourceSans
-Panel_4.Text = "Made by esc community emr#1487"
+Panel_4.Text = "Made by esc community emr#7980"
 Panel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 Panel_4.TextScaled = true
 Panel_4.TextSize = 18.000
@@ -802,7 +730,7 @@ Panel_5.BorderSizePixel = 0
 Panel_5.Position = UDim2.new(6.83918524, 0, 0.200801373, 0)
 Panel_5.Size = UDim2.new(0, 543, 0, 28)
 Panel_5.Font = Enum.Font.SourceSans
-Panel_5.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
+Panel_5.Text = "JOIN DISCORD FOR DAILY KEY  [discord closed]"
 Panel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Panel_5.TextScaled = true
 Panel_5.TextSize = 18.000
@@ -833,7 +761,7 @@ TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.Position = UDim2.new(0.0440414473, 0, 0.864942551, 0)
 TextLabel_6.Size = UDim2.new(0, 478, 0, 39)
 TextLabel_6.Font = Enum.Font.SciFi
-TextLabel_6.Text = "made by emr#1487"
+TextLabel_6.Text = "made by emr#7980"
 TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 255)
 TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 14.000
@@ -873,7 +801,7 @@ Discord_3.BorderSizePixel = 0
 Discord_3.Position = UDim2.new(0.023760438, 0, 0.723784268, 0)
 Discord_3.Size = UDim2.new(0, 497, 0, 64)
 Discord_3.Font = Enum.Font.SourceSans
-Discord_3.Text = "JOIN DISCORD FOR DAILY KEY  [xmKaBvHm]"
+Discord_3.Text = "JOIN DISCORD FOR DAILY KEY  [discord closed]"
 Discord_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord_3.TextScaled = true
 Discord_3.TextSize = 14.000
@@ -988,7 +916,7 @@ MeepCity.TextSize = 14.000
 MeepCity.TextWrapped = true
 MeepCity.MouseButton1Down:connect(function()
 	game.StarterGui:SetCore("ChatMakeSystemMessage", {
-		Text = "Gui Made By emr#1487";
+		Text = "Gui Made By emr#7980";
 		Color = Color3.new(255, 0, 0);
 		Font = Enum.Font.SourceSansBold;
 		FontSize = Enum.FontSize.Size24;
@@ -1014,7 +942,7 @@ MeepCity.MouseButton1Down:connect(function()
 
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "emr Gui Loaded!";
-		Text = "Gui Made By emr#1478";
+		Text = "Gui Made By emr#7980";
 	})
 
 	-- Objects
@@ -1102,7 +1030,7 @@ MeepCity.MouseButton1Down:connect(function()
 	Made.Position = UDim2.new(0.08723405, 0, 0.936395764, 0)
 	Made.Size = UDim2.new(0, 59, 0, 15)
 	Made.Font = Enum.Font.SourceSansBold
-	Made.Text = "Gui Made By emr#1487"
+	Made.Text = "Gui Made By emr#7980"
 	Made.TextColor3 = Color3.new(1, 1, 1)
 	Made.TextSize = 19
 	Made.TextStrokeTransparency = 0.10000000149012
@@ -1200,7 +1128,7 @@ MeepCity.MouseButton1Down:connect(function()
 	Dudu.Position = UDim2.new(-0.0202531647, 0, -0.0186915882, 0)
 	Dudu.Size = UDim2.new(0, 395, 0, 206)
 	Dudu.Font = Enum.Font.SourceSansBold
-	Dudu.Text = "Money Farm : Go To Phising Place PHISING THE FISH AND SELL FISH                                                                                        PLUS PASS: YOU CAN GET WINGS IN SHOP                                        ANOTHER ? I DONT KNOW , BTW THX FOR USE THIS GUI :D                                                                                                                                    MADE BY : ANWARUN"
+	Dudu.Text = "Money Farm : Go To Phising Place PHISING THE FISH AND SELL FISH                                                                                        PLUS PASS: YOU CAN GET WINGS IN SHOP                                        ANOTHER ? I DONT KNOW , BTW THX FOR USE THIS GUI :D                                                                                                                                    
 	Dudu.TextColor3 = Color3.new(0.972549, 0.972549, 0.972549)
 	Dudu.TextSize = 19
 	Dudu.TextWrapped = true
